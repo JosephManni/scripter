@@ -1,7 +1,7 @@
 on playSong(songName)
     tell application "Music"
         set theTrack to first track of library playlist 1 whose name is songName
-        play theTrack
+        play theTrack 
     end tell
 end playSong
 
