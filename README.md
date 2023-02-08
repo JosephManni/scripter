@@ -46,7 +46,7 @@ $ osascript scripts/reminders/get-reminders-in-list.applescript "Today"
 
 ### → Scripting Safari
 
-**Open list of tabs**
+**Open group of tabs**
 
 ```sh
 $ osascript scripts/Safari/openTabs.applescript "Work"
@@ -55,7 +55,7 @@ $ osascript scripts/Safari/openTabs.applescript "Work"
 **Auto click on button**
 
 ```sh
-$ osascript scripts/Safari/autoClick.applescript 26 17
+$ osascript scripts/Safari/autoClick.applescript 26 17 100
 ```
 
 
