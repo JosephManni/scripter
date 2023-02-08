@@ -26,10 +26,10 @@ AppleScript is a powerful and versatile scripting language for automating tasks 
 $ osascript scripts/iMessage/sendMessage.scpt 123-456-7890 "Sent from applescript!"
 ```
 
-**Spam Messages**
+**Spam Message**
 
 ```sh
-$ osascript scripts/iMessage/spamMessages.scpt 123-456-7890 "Use tabs instead of spaces!!!" 100
+$ osascript scripts/iMessage/spamMessage.scpt 123-456-7890 "Use tabs instead of spaces!!!" 100
 ```
 
 
@@ -54,10 +54,28 @@ $ osascript scripts/Music/playRand.scpt 'A'
 
 ### → Scripting Reminders
 
-**Get reminders in list**
+**List all reminders**
 
 ```sh
-$ osascript scripts/reminders/get-reminders-in-list.scpt "Today"
+$ osascript scripts/Reminders/getReminders.scpt "all"
+```
+
+**List range of reminders**
+
+```sh
+$ osascript scripts/Reminders/getReminders.scpt 1-3
+```
+
+**Add Reminder**
+
+```sh
+$ osascript scripts/Reminders/addReminder.scpt "exit vim ASAP"
+```
+
+**Delete Reminder by Name**
+
+```sh
+$ osascript scripts/Reminders/deleteReminder.scpt "exit vim ASAP"
 ```
 
 
