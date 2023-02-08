@@ -1,1 +1,0 @@
-### Scripts by application type
