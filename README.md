@@ -29,7 +29,7 @@ $ osascript scripts/iMessage/sendMessage.scpt 123-456-7890 "Sent from applescrip
 **Spam Messages**
 
 ```sh
-$ osascript scripts/iMessage/spamMessages.scpt 123-456-7890 "Use tabs instead of spaces next time!" 100
+$ osascript scripts/iMessage/spamMessages.scpt 123-456-7890 "Use tabs instead of spaces!!!" 100
 ```
 
 
