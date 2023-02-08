@@ -1,5 +1,6 @@
 on addReminder(newReminder)
     set theName to newReminder
+    #keep copy of name
 	tell application "Reminders"
 		set newReminder to make new reminder with properties {name:newReminder}
 		tell list "Reminders"
