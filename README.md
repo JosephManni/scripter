@@ -11,6 +11,7 @@ AppleScript is a powerful and versatile scripting language for automating tasks 
 ### Table of Contents
 
 - [Scripting iMessage](#-scripting-iMessage)
+- [Scripting Music](#-scripting-Music)
 - [Scripting Reminders](#-scripting-Reminders)
 - [Scripting Safari](#-scripting-Safari)
 - [Scripting with Cron Jobs](#-scripting-with-Cron-Jobs)
@@ -22,14 +23,32 @@ AppleScript is a powerful and versatile scripting language for automating tasks 
 **Send Message**
 
 ```sh
-$ osascript scripts/iMessage/sendMessage.applescript 123-456-7890 "Sent from applescript!"
+$ osascript scripts/iMessage/sendMessage.scpt 123-456-7890 "Sent from applescript!"
 ```
 
 **Spam Messages**
 
 ```sh
-$ osascript scripts/iMessage/spamMessages.applescript 123-456-7890 "Use tabs instead of spaces next time!" 100
+$ osascript scripts/iMessage/spamMessages.scpt 123-456-7890 "Use tabs instead of spaces next time!" 100
 ```
+
+
+<br/>
+
+### → Scripting Music
+
+**Play Song**
+
+```sh
+$ osascript scripts/Music/playSong.scpt "Hello"
+```
+
+**Play Random Song Starting With Letter**
+
+```sh
+$ osascript scripts/Music/playRand.scpt 'A'
+```
+
 
 <br/>
 
@@ -38,7 +57,7 @@ $ osascript scripts/iMessage/spamMessages.applescript 123-456-7890 "Use tabs ins
 **Get reminders in list**
 
 ```sh
-$ osascript scripts/reminders/get-reminders-in-list.applescript "Today"
+$ osascript scripts/reminders/get-reminders-in-list.scpt "Today"
 ```
 
 
@@ -49,13 +68,13 @@ $ osascript scripts/reminders/get-reminders-in-list.applescript "Today"
 **Open group of tabs**
 
 ```sh
-$ osascript scripts/Safari/openTabs.applescript "Work"
+$ osascript scripts/Safari/openTabs.scpt "Work"
 ```
 
 **Auto click on button**
 
 ```sh
-$ osascript scripts/Safari/autoClick.applescript 26 17 100
+$ osascript scripts/Safari/autoClick.scpt 26 17 100
 ```
 
 
