@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://josephmanni.com/assets/img/script-editor.png" alt="Alt text" title="Applescript">
+ <img src="https://www.josephmanni.com/assets/img/script-editor.png" alt="Alt text" title="Applescript">
 </p>
 <h1 align="center">Applescript</h1>
 
